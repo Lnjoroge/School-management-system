@@ -8,7 +8,6 @@ import javax.persistence.*;
 
 @Entity
 @Data
-@Table(name="Student")
 @AllArgsConstructor
 @NoArgsConstructor
 public class Student {
@@ -18,6 +17,4 @@ public class Student {
     private String firstName;
     private String lastName;
     private String emailName;
-
-
 }
